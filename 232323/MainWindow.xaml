@@ -1,0 +1,16 @@
+﻿<Window x:Class="_232323.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_232323"
+        mc:Ignorable="d"
+        Title="MainWindow" Background="BlanchedAlmond" Height="339.008" Width="280">
+    <Grid Margin="0,0,0,11">
+        <Label Content="Введите дробное двоичное число" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="213"/>
+        <TextBox x:Name="countBox" HorizontalAlignment="Center" Height="45" Margin="0,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="213"/>
+        <Button Content="Вычислить" HorizontalAlignment="Center" VerticalAlignment="Top" Width="213" Margin="0,101,0,0" Height="73" Click="Button_Click" FontFamily="TimesNewRoman" FontSize="15"/>
+        <TextBlock x:Name="resultBox" HorizontalAlignment="Center" Margin="0,201,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="58" Width="213" Background="White"/>
+
+    </Grid>
+</Window>
